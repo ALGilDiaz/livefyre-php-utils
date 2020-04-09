@@ -2,14 +2,13 @@
 
 namespace Livefyre\Core;
 
-use JWT;
-
 use Livefyre\Model\CollectionData;
 use Livefyre\Exceptions\ApiException;
 use Livefyre\Routing\Client;
 use Livefyre\Api\Domain;
 use Livefyre\Utils\LivefyreUtils;
 use Livefyre\Validator\CollectionValidator;
+use Livefyre\Utils\JWT;
 
 class Collection extends Core {
     private $_site;
